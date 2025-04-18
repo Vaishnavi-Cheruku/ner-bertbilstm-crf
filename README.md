@@ -2,6 +2,7 @@
 This project implements a Named Entity Recognition (NER) model using a hybrid architecture: BERT for contextual embeddings, BiLSTM for sequential modeling, and CRF for structured prediction.
 
 Dataset: CoNLL-2003 (English)
+Dataset Link:https://huggingface.co/datasets/eriktks/conll2003
 Model: bert-base-cased + BiLSTM + CRF
 Framework: PyTorch
 Metric: Macro F1 (using seqeval)
